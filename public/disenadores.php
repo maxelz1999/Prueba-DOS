@@ -24,7 +24,7 @@ font-size: medium;" value="1">Arica y Parinacota</option>
     <thead>
     <tr>
         <td></td>
-        <td><h2>Nombre </h2> </td>
+        <td><h2>Nombre de la tienda </h2> </td>
         <td><h2>Descripcion </h2></td>
         <td><h2>Contacto </h2></td>
 
