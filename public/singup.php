@@ -48,16 +48,29 @@
 
 
 <label style="font-weight:bold; font-family: sans-serif; font-size: 20px;">Region</label>
-<select class="form-select" name="region" style="font-family: sans-serif; font-size: 20px; width:180px; height:50px ;">
-
+<select class="form-select" name="region" style="font-family: sans-serif; font-size: 20px; width:240px; height:50px ;">
+        <option value="1" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Arica y Parinacota</option>
+        <option value="2" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Tarapaca</option>
+        <option value="3" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Antofagasta</option>
+        <option value="4" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Atacama</option>
+        <option value="5" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Coquimbo</option>
+        <option value="6" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Valparaiso</option>
         <option value="7" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Santiago</option>
-        <option value="11" style="font-weight:bold; font-family: sans-serif; font-size: 20px;">Araucania</option>
+        <option value="8" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">O'Higgins</option>
+        <option value="9" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Maule</option>
+        <option value="10" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Bio-Bio</option>
+        <option value="11" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Araucania</option>
+        <option value="12" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Los Rios</option>
+        <option value="13" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Los Lagos</option>
+        <option value="14" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Aysen</option>
+        <option value="15" style="font-weight:bold; font-family: sans-serif; font-size: 20px; ">Magallanes</option>
+
         
 
 
 <center>
     <input type="submit" name="Guardar" value="Guardar" class="btn btn-info">
-    <button><a href="disenadores.php">Ver diseñadores</a></button>
+    <button><a href="index.php">Ver diseñadores</a></button>
 </center>
 </form>
     </body>

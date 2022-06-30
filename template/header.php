@@ -38,10 +38,9 @@ Seleccion de region
     <!-- Enlaces de navegacion -->
     <nav>
         <ul>
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="disenadores.php">Disenadores</a></li>
+            <li><a href="index.php">Diseñadores</a></li>
             <li><a href="diseno.php">Crea tu diseño</a></li>
-            <li><a href="singup.php">Crea tu cuenta</a></li>
+            <li><a href="singup.php">Agregar Diseñador</a></li>
         </ul>
     </nav>
 </header>
