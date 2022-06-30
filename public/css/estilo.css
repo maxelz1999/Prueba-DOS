@@ -269,3 +269,20 @@ Footer
         padding: 35px 0px;
     }
 }
+
+.label-sus {
+    color: white;
+    padding: 8px;
+
+}
+
+.info{
+
+    background-color: #2196F3;
+    border-radius: 15px;
+    padding: 8px;
+}
+.select-sus{
+    width: 400px;
+            text-align-last: center;
+}

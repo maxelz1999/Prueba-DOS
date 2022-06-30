@@ -42,10 +42,6 @@ Seleccion de region
             <li><a href="disenadores.php">Disenadores</a></li>
             <li><a href="diseno.php">Crea tu diseño</a></li>
             <li><a href="singup.php">Crea tu cuenta</a></li>
-            <li><a href="login.php">Inicia sesion</a></li>
-
-           
-
         </ul>
     </nav>
 </header>
