@@ -115,24 +115,24 @@ include '../template/header.php';
             <option value="./batman_small.png" style="display: none;">Batman</option>
         </select>
 
-            <label for="tshirt-color" style="font-weight:bold; font-family: sans-serif; font-size: 30px;">Color de Polera</label>
-            <div class="form-group">
-                <select id="tshirt-color" class="selectpicker" style="font-size: medium; font-weight: bold;width:180px; height:50px ;">
-                    <!-- Puede agregar cualquier color con una nueva opción y definiendo su código hexadecimal -->
-                    <option value="0" style="font-size: medium; font-weight: bold;" hidden="hidden">Seleccione color</option>
-                    <option value="#fff" style="font-size: medium; font-weight: bold;">Blanco</option>
-                    <option value="#000" style="font-size: medium; font-weight: bold;">Negro</option>
-                    <option value="#f00" style="font-size: medium; font-weight: bold;">Rojo</option>
-                    <option value="#008000" style="font-size: medium; font-weight: bold;">Verde</option>
-                    <option value="#ff0" style="font-size: medium; font-weight: bold;">Amarillo</option>
-                    <option value="#dd14bb" style="font-size: medium; font-weight: bold;">Morado</option>
-                </select>
-            </div>
+        <label for="tshirt-color" style="font-weight:bold; font-family: sans-serif; font-size: 30px;">Color de Polera</label>
+        <div class="form-group">
+            <select id="tshirt-color" class="selectpicker" style="font-size: medium; font-weight: bold;width:180px; height:50px ;">
+                <!-- Puede agregar cualquier color con una nueva opción y definiendo su código hexadecimal -->
+                <option value="0" style="font-size: medium; font-weight: bold;" hidden="hidden">Seleccione color</option>
+                <option value="#fff" style="font-size: medium; font-weight: bold;">Blanco</option>
+                <option value="#000" style="font-size: medium; font-weight: bold;">Negro</option>
+                <option value="#f00" style="font-size: medium; font-weight: bold;">Rojo</option>
+                <option value="#008000" style="font-size: medium; font-weight: bold;">Verde</option>
+                <option value="#ff0" style="font-size: medium; font-weight: bold;">Amarillo</option>
+                <option value="#dd14bb" style="font-size: medium; font-weight: bold;">Morado</option>
+            </select>
+        </div>
         <br>
         <label for="tshirt-custompicture" style="font-weight:bold; font-family: sans-serif; font-size: 30px;">Sube tus imagenes:</label>
         <br>
         <div>
-            <input type="file" id="tshirt-custompicture" class="form-control-lg form-group" style="font-size: large;"/>
+            <input type="file" id="tshirt-custompicture" class="form-control-lg form-group" style="font-size: large;" />
         </div>
 
 
@@ -202,6 +202,23 @@ include '../template/header.php';
                 }
             }, false);
         </script>
+        <br><br>
+        <button id="btnCapturar" class="btn btn-danger btn-lg" style="font-size: medium; font-weight: bold;width:180px; height:50px ;">Descargar polera</button>
+        <!--
+    En este elemento vamos a poner al canvas que será generado.
+  -->
+        <div id="contenedorCanvas">
+        </div>
+        <!--
+    Cargar el script de html2canvas, podría ser desde un servidor
+    propio o como yo lo hago: desde jsdelivr
+  -->
+        
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.1/dist/html2canvas.min.js"></script>
+    <!--
+      Después de eso, cargar el script que contiene nuestra lógica
+    -->
+    <script src="../public/js/script.js"></script>
     </body>
 </main>
 
